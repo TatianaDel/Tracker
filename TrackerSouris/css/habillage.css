@@ -1,0 +1,131 @@
+body {
+	background-image: url("../img/mur.jpg");
+	background-size: cover;
+}
+
+#conteneurSite{
+	width: 1280px;
+	height: 600px;
+	font-family: Times;
+	display: inline-block;
+}
+
+#titre {
+	width: 60%;
+	height: 40px;
+	border: 2px solid;
+	border-radius: 10px;
+	font-size: 30px;
+	background: #a8c2f1;
+}
+
+#pokemon {
+	width: 35%;
+	height: 80px;
+	border-radius: 10px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.intro{
+	width: auto;
+	height: 35px;
+	border: 2px solid;
+	font-size: 20px;
+	background: #b8c3d8;	
+}
+
+#choix1 {
+	width: 115px;
+	height: 25px;
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 10px;
+	display: inline-block;
+	background: #b9b9b9;	
+}
+
+#choix2 {
+	width: 115px;
+	height: 25px;
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 10px;
+	display: inline-block;
+	background: #b9b9b9;	
+}
+
+#choix3 {
+	width: 115px;
+	height: 25px;
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 10px;
+	display: inline-block;
+	background: #b9b9b9;
+}
+
+#test {
+	width: 1150px;
+	height: 400px;
+	margin: 15px;
+}
+
+#zone {
+	width: auto;
+	height: 365px;
+	border: 2px solid;
+	background-image: url("../img/herbe.jpg");
+}
+
+#petiteZone {
+	width: 875px;
+	height: 230px;
+	margin-left: 135px;
+	margin-top: 30px;
+	float: left;
+}
+
+#info{
+	width: 50px;
+	height: 36px;
+	float:left;
+	font-size: 15px;
+	text-align: left;
+	margin-left:10px;
+}
+
+#poke {
+	width: 175px;
+	height: 175px;
+	position: absolute;
+	display: none;
+}
+
+#piedDePage{
+	color: #000000; 
+	font-size: 15px;
+	display: inline-block;
+	text-align: left;
+}
+
+#valid{
+	width: 88px;
+	display: inline-block;
+}
+
+span.plante {
+    color: #339966;
+}
+
+span.elec {
+    color: #ffc800;
+}
+
+span.feu {
+    color: #d42b2b;
+}
+
+span.bleu {
+	color:#4577d6;
+}
